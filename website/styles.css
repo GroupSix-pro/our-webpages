@@ -1,0 +1,144 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0.5rem;
+	padding: 0;
+	background-color: rgb(248, 245, 245);
+	width : 100%
+	
+
+	
+}
+
+
+header {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: white;
+	padding: 10px;
+	text-align: center;
+	box-align: left;
+	text-decoration: none;
+	height: 150px;
+	size: 0cap;
+
+	
+	
+}
+img {
+	float: left;
+}
+
+
+
+h2{
+	text-emphasis: borl;
+	color: navy;
+}
+
+
+nav{
+	border: 2px  transparent;
+	border-radius : 2rem;
+	background: rgb(238, 222, 222);
+	position : center;
+	padding: 10px;
+	
+}
+
+li a:hover{
+	background: green;
+	color : #fffdfd;
+	cursor: pointer;
+}
+p{
+	color: rgb(26, 21, 21);
+	font-size: larger;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+	position: relative;
+}
+
+nav a {
+	color: #333;
+	text-decoration: none;
+	position: relative;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+}
+
+
+
+footer {
+	background-color: transparent;
+	padding: 0px;
+	text-align: center;
+	background-color: #666;
+	box-shadow: 10px 10px 5px lightblue;
+	position: bottom;
+
+}
+
+li {
+	list-style-type: none;
+	line-height: 1.6;
+	text-align: left;
+	padding: 1%;
+	
+}
+
+.profile-pic-figure{
+	width : 36%;
+}
+
+.profile-pic-figure img{
+	width: 50%;
+	height: auto;
+	min-width: 10px;
+	border: 5px transparent;
+}
+.hero{
+	border-bottom: 2px solid lightblue;
+	padding: 20px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 30px;
+	background-color: #e6e0e0;
+	background-image: url('images/coins.png');
+	background-repeat: visible;
+}
+
+.nowrap{
+	text-shadow: #666;
+	color: #333;
+}
+
+.h1 {
+font-size: 100%;
+}
+.contactus{
+	text-underline-position: left;
+}
+
+.wrapper{
+	color: #666;
+}
+
+.faqimage{
+	float: center;
+}
+

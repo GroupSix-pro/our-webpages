@@ -1,0 +1,32 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color :azure;
+    text-align: justify;
+	background-color: rgb(211, 237, 248);
+    
+}
+
+
+header {
+	background-color: #f0f0f0;
+	padding: 20px;
+	text-align: right;
+		position: top;
+	}
+	img{
+		position: left;
+	}
+
+footer {
+    background-color: transparent;
+    padding-bottom: 0px;
+    text-align:justify;
+	
+}
+li a:hover{
+	background: green;
+	color : #fffdfd;
+	cursor: pointer;
+}
